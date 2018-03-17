@@ -1,0 +1,2153 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/martin/ontologies/2018/1/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/martin/ontologies/2018/1/untitled-ontology-8">
+    <Prefix name="" IRI="http://www.semanticweb.org/martin/ontologies/2018/1/untitled-ontology-8"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#RewardAttainmentSustained"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NPY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NMDAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acetylcholine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HabitSelfReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExecutiveFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dmPFC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArousalRegulatorySystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PVN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LossRelevantRecallBias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BDNF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AttentionalBiasToThreat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResponseTime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dopamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expectancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RewardCircuitry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SustainedThreatSelfReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Molecule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#androgens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BehavioralApproachTest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glutamate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Respiration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorbidThoughts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paper29382815"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SustainedThreatPhysiology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FGF2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stereotypic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasConstruct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PAG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalRelationalAggression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EyeTracking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FearMolecule"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCircuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OFC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Androgens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TESI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PunishmentSensitivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PSAP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SadnessElicitingFilmClips"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PosteriorCingulate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vmPFC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cortisol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pituitary_cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HabitSystems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compulsive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FosB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacialExpressions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PituitaryCells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnxietySelfReport"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Glutamate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RewardValuation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Striatum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CREB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LossCircuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnxiousArousal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediumSpinyNeurons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Septum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ErrorRelatedNegativity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrustrativeNonrewardCircuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParietalCortex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Withdrawal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubstantiaNigra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#latPFC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HypothalamicNuclei"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpenField"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EndogenousCannabinoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitsOfAnalysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LossParadigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GABAergic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResponsivenessSubscale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColdPressorTest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnxietyCircuit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bed_nucleus_stria_terminalis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FearofNegativeEvaluationScale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NPUThreatTask"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lab-TAB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActionSelection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rumination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FearConditioning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnxietySensitivityIndex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnxietyPhysiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedialAmyg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CognitiveSystem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#npu_threat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SustainedThreatBehavior"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FearParadigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FearCell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FearSurveySchedule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FearPotentiatedStartle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApproachMotivation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PerseverativeBehavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Freezing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cortisol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProlongedPsychophysiologicalReactivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBehavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PsychomotorRetardation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RPVM"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LossBehavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AttentionNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STRAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacialEMG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FearPhysiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InsularCortex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DecreasedLibido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HippocampusPost"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#intolerance_uncertainty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MemoryRetrievalDeficit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ICMs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AttentionalBias"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#acth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NPY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeartRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DysregulationAmygdala"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnxietyParadigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SustainedThreatCell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HabitCell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LEDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avoidance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vasopressin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SUDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParasympatheticNervousSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LatAmyg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anhedonia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paper28798340"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ACTH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pupillometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HelplessnessBehavior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neurosteroids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anxiety"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPhysiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HippocampusAnt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DopaminergicNeurons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntoleranceOfUncertaintyScale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hypothalamus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Habit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amygdala"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YouthLifeStressInterview"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anxiety_sensitivity_index"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DLPFC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#testpaper"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParadigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnxietyMolecule"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSelfReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oxytocin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DefaultModeNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FearBehavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HabitBehavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CCK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neurons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DorsalACC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReponseAccuracy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vPAG"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serotonin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VigilanceNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncreasedConflictDetection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InflammatoryMolecules"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AverageCortisolLevels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#potentiated_startle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BedNucleusStriaTerminalis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HPAAxisHormones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dPAG"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMolecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResponseInhibition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CRF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FearCircuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guilt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrustrativeNonrewardSelfReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LossMolecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrustrativeNonrewardBehavior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bas_amyg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskyFamilies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VTA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SustainedThreatMolecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LossSelfReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrbitofrontalCortex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EndogenousCannibinoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PositiveValenceSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VentACC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#average_cortisol_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkinConductance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaperTest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serotonin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RewardLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amotivation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialApproach"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#leds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DysregulationCingulate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hippocampus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CentralNucleus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncreasedSelfFocus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neuropeptide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LossOfDrive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SustainedThreatCircuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContextStartle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BDNF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orexin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CRF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FearSelfReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrustrativeNonrewardParadigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrustrativeNonreward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HabitCircuit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RewardAttainmentInitial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HippocampalCells"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NMDAR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FGF2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GABA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Behavior"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fear_of_negative_evaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dopamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChildhoodTraumaQuestionnaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BasAmyg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analgesia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuestionnaireOfDailyFrustrations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Repetitive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StrangerTests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LossPhysiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NegativeValenceSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Steroids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neuroimmune"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeuropeptideS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SustainedThreat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neurosteroids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskAssessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TrierSocialStressTest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PVT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VentralStriatium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EffortValuation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PyramidalCells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AutonomicNervousSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CO2ChallengeTest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PotentiatedStartle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paradigm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Self-report"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Approach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrustrativeNonrewardMolecule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Orexin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microglia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sadness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BIS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AnxietyCell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrefrontalCells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HabitMolecule"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ACTH"/>
+        <Class IRI="#AnxietyPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ACTH"/>
+        <Class IRI="#SustainedThreatMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANS"/>
+        <Class IRI="#LossPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acetylcholine"/>
+        <Class IRI="#HabitMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActionSelection"/>
+        <Class IRI="#ApproachMotivation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amotivation"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amygdala"/>
+        <Class IRI="#FrustrativeNonrewardCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amygdala"/>
+        <Class IRI="#LossCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analgesia"/>
+        <Class IRI="#FearBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Androgens"/>
+        <Class IRI="#LossMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anhedonia"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anhedonia"/>
+        <Class IRI="#SustainedThreatBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anxiety"/>
+        <Class IRI="#NegativeValenceSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnxietyCell"/>
+        <Class IRI="#Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnxietyCircuit"/>
+        <Class IRI="#Circuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnxietyMolecule"/>
+        <Class IRI="#Molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnxietyParadigm"/>
+        <Class IRI="#Paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnxietyPhysiology"/>
+        <Class IRI="#Physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnxietySelfReport"/>
+        <Class IRI="#Self-report"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnxietySensitivityIndex"/>
+        <Class IRI="#AnxietySelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AnxiousArousal"/>
+        <Class IRI="#SustainedThreatBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Approach"/>
+        <Class IRI="#FearBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApproachMotivation"/>
+        <Class IRI="#PositiveValenceSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArousalRegulatorySystem"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AttentionNetwork"/>
+        <Class IRI="#SustainedThreatCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AttentionalBias"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AttentionalBiasToThreat"/>
+        <Class IRI="#SustainedThreatBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AutonomicNervousSystem"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AverageCortisolLevels"/>
+        <Class IRI="#AnxietyPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoidance"/>
+        <Class IRI="#FearBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avoidance"/>
+        <Class IRI="#SustainedThreatBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BDNF"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BIS"/>
+        <Class IRI="#AnxietySelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BP"/>
+        <Class IRI="#FearPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BasAmyg"/>
+        <Class IRI="#Amygdala"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BasAmyg"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BedNucleusStriaTerminalis"/>
+        <Class IRI="#AnxietyCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Behavior"/>
+        <Class IRI="#UnitsOfAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BehavioralApproachTest"/>
+        <Class IRI="#FearParadigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCK"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CO2ChallengeTest"/>
+        <Class IRI="#FearParadigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CREB"/>
+        <Class IRI="#HabitMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CRF"/>
+        <Class IRI="#AnxietyMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CRF"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CRF"/>
+        <Class IRI="#SustainedThreatMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cell"/>
+        <Class IRI="#UnitsOfAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentralNucleus"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChildhoodTraumaQuestionnaire"/>
+        <Class IRI="#SustainedThreatSelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circuit"/>
+        <Class IRI="#UnitsOfAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CognitiveSystem"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdPressorTest"/>
+        <Class IRI="#FearParadigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compulsive"/>
+        <Class IRI="#HabitBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContextStartle"/>
+        <Class IRI="#FearPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cortisol"/>
+        <Class IRI="#AnxietyMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cortisol"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cortisol"/>
+        <Class IRI="#Steroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crying"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DLPFC"/>
+        <Class IRI="#LossCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DecreasedLibido"/>
+        <Class IRI="#SustainedThreatBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DefaultModeNetwork"/>
+        <Class IRI="#LossCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dopamine"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dopamine"/>
+        <Class IRI="#FrustrativeNonrewardMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dopamine"/>
+        <Class IRI="#HabitMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DopaminergicNeurons"/>
+        <Class IRI="#HabitCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DopaminergicNeurons"/>
+        <Class IRI="#Neurons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DopaminergicNeurons"/>
+        <Class IRI="#SubstantiaNigra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DorsalACC"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DysregulationAmygdala"/>
+        <Class IRI="#Amygdala"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DysregulationAmygdala"/>
+        <Class IRI="#SustainedThreatCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DysregulationCingulate"/>
+        <Class IRI="#SustainedThreatCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMG"/>
+        <Class IRI="#FearPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EffortValuation"/>
+        <Class IRI="#ApproachMotivation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EndogenousCannabinoids"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ErrorRelatedNegativity"/>
+        <Class IRI="#SustainedThreatPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExecutiveFunction"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Expectancy"/>
+        <Class IRI="#ApproachMotivation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EyeTracking"/>
+        <Class IRI="#FearPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FGF2"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacialEMG"/>
+        <Class IRI="#FearPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacialExpressions"/>
+        <Class IRI="#FearBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fear"/>
+        <Class IRI="#NegativeValenceSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FearBehavior"/>
+        <Class IRI="#Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FearCell"/>
+        <Class IRI="#Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FearCircuit"/>
+        <Class IRI="#Circuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FearConditioning"/>
+        <Class IRI="#FearParadigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FearMolecule"/>
+        <Class IRI="#Molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FearParadigm"/>
+        <Class IRI="#Paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FearPhysiology"/>
+        <Class IRI="#Physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FearPotentiatedStartle"/>
+        <Class IRI="#FearPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FearSelfReport"/>
+        <Class IRI="#Self-report"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FearSurveySchedule"/>
+        <Class IRI="#FearSelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FearofNegativeEvaluationScale"/>
+        <Class IRI="#AnxietySelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FosB"/>
+        <Class IRI="#HabitMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Freezing"/>
+        <Class IRI="#FearBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrustrativeNonreward"/>
+        <Class IRI="#NegativeValenceSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrustrativeNonrewardBehavior"/>
+        <Class IRI="#Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrustrativeNonrewardCircuit"/>
+        <Class IRI="#Circuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrustrativeNonrewardMolecule"/>
+        <Class IRI="#Molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrustrativeNonrewardParadigm"/>
+        <Class IRI="#Paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrustrativeNonrewardSelfReport"/>
+        <Class IRI="#Self-report"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GABA"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GABA"/>
+        <Class IRI="#FrustrativeNonrewardMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GABAergic"/>
+        <Class IRI="#FearCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glia"/>
+        <Class IRI="#FearCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glutamate"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glutamate"/>
+        <Class IRI="#FrustrativeNonrewardMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glutamate"/>
+        <Class IRI="#HabitMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guilt"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPA"/>
+        <Class IRI="#LossPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPA"/>
+        <Class IRI="#SustainedThreatPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HPAAxisHormones"/>
+        <Class IRI="#SustainedThreatMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Habit"/>
+        <Class IRI="#PositiveValenceSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HabitBehavior"/>
+        <Class IRI="#Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HabitCell"/>
+        <Class IRI="#Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HabitCircuit"/>
+        <Class IRI="#Circuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HabitMolecule"/>
+        <Class IRI="#Molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HabitSelfReport"/>
+        <Class IRI="#Self-report"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HabitSystems"/>
+        <Class IRI="#LossCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HabitSystems"/>
+        <Class IRI="#SustainedThreatCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeartRate"/>
+        <Class IRI="#FearPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HelplessnessBehavior"/>
+        <Class IRI="#SustainedThreatBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HippocampalCells"/>
+        <Class IRI="#SustainedThreatCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hippocampus"/>
+        <Class IRI="#LossCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HippocampusAnt"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HippocampusAnt"/>
+        <Class IRI="#Hippocampus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HippocampusPost"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HippocampusPost"/>
+        <Class IRI="#Hippocampus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HypothalamicNuclei"/>
+        <Class IRI="#SustainedThreatCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hypothalamus"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hypothalamus"/>
+        <Class IRI="#FrustrativeNonrewardCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ICMs"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncreasedConflictDetection"/>
+        <Class IRI="#SustainedThreatBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncreasedSelfFocus"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InflammatoryMolecules"/>
+        <Class IRI="#LossMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insula"/>
+        <Class IRI="#LossCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InsularCortex"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntoleranceOfUncertaintyScale"/>
+        <Class IRI="#AnxietySelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LC"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LC"/>
+        <Class IRI="#FrustrativeNonrewardCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LEDS"/>
+        <Class IRI="#AnxietySelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LEDS"/>
+        <Class IRI="#LossSelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LEDS"/>
+        <Class IRI="#SustainedThreatSelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lab-TAB"/>
+        <Class IRI="#FrustrativeNonrewardParadigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LatAmyg"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loss"/>
+        <Class IRI="#NegativeValenceSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LossBehavior"/>
+        <Class IRI="#Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LossCircuit"/>
+        <Class IRI="#Circuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LossMolecule"/>
+        <Class IRI="#Molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LossOfDrive"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LossParadigm"/>
+        <Class IRI="#Paradigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LossPhysiology"/>
+        <Class IRI="#Physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LossRelevantRecallBias"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LossSelfReport"/>
+        <Class IRI="#Self-report"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedialAmyg"/>
+        <Class IRI="#Amygdala"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedialAmyg"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumSpinyNeurons"/>
+        <Class IRI="#HabitCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediumSpinyNeurons"/>
+        <Class IRI="#Neurons"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MemoryRetrievalDeficit"/>
+        <Class IRI="#SustainedThreatBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microglia"/>
+        <Class IRI="#Glia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microglia"/>
+        <Class IRI="#SustainedThreatCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Molecule"/>
+        <Class IRI="#UnitsOfAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorbidThoughts"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NMDAR"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NPUThreatTask"/>
+        <Class IRI="#AnxietyParadigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NPY"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NegativeValenceSystem"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neuroimmune"/>
+        <Class IRI="#LossPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurons"/>
+        <Class IRI="#FearCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeuropeptideS"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurosteroids"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OFC"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OFC"/>
+        <Class IRI="#FrustrativeNonrewardCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpenField"/>
+        <Class IRI="#FearBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrbitofrontalCortex"/>
+        <Class IRI="#LossCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orexin"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oxytocin"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oxytocin"/>
+        <Class IRI="#LossMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PAG"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PSAP"/>
+        <Class IRI="#FrustrativeNonrewardParadigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PVN"/>
+        <Class IRI="#LossCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PVT"/>
+        <Class IRI="#SustainedThreatCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBehavior"/>
+            <Class IRI="#Behavior"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCell"/>
+            <Class IRI="#Cell"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCircuit"/>
+            <Class IRI="#Circuit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasConstruct"/>
+            <Class IRI="#UnitsOfAnalysis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMolecule"/>
+            <Class IRI="#Molecule"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParadigm"/>
+            <Class IRI="#Paradigm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhysiology"/>
+            <Class IRI="#Physiology"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSelfReport"/>
+            <Class IRI="#Self-report"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paper"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSystem"/>
+            <Class IRI="#System"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paradigm"/>
+        <Class IRI="#UnitsOfAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParasympatheticNervousSystem"/>
+        <Class IRI="#AutonomicNervousSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParasympatheticNervousSystem"/>
+        <Class IRI="#FrustrativeNonrewardCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParietalCortex"/>
+        <Class IRI="#LossCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PerseverativeBehavior"/>
+        <Class IRI="#SustainedThreatBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalRelationalAggression"/>
+        <Class IRI="#FrustrativeNonrewardBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physiology"/>
+        <Class IRI="#UnitsOfAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PituitaryCells"/>
+        <Class IRI="#AnxietyCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pons"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositiveValenceSystem"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PosteriorCingulate"/>
+        <Class IRI="#LossCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PotentiatedStartle"/>
+        <Class IRI="#AnxietyPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrefrontalCells"/>
+        <Class IRI="#SustainedThreatCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProlongedPsychophysiologicalReactivity"/>
+        <Class IRI="#LossPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PsychomotorRetardation"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PunishmentSensitivity"/>
+        <Class IRI="#SustainedThreatBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pupillometry"/>
+        <Class IRI="#FearPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PyramidalCells"/>
+        <Class IRI="#FearCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuestionnaireOfDailyFrustrations"/>
+        <Class IRI="#FrustrativeNonrewardSelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RPVM"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Repetitive"/>
+        <Class IRI="#HabitBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReponseAccuracy"/>
+        <Class IRI="#FearPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Respiration"/>
+        <Class IRI="#FearPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResponseInhibition"/>
+        <Class IRI="#FearBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResponseTime"/>
+        <Class IRI="#FearBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResponsivenessSubscale"/>
+        <Class IRI="#FrustrativeNonrewardSelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RewardAttainmentInitial"/>
+        <Class IRI="#PositiveValenceSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RewardAttainmentSustained"/>
+        <Class IRI="#PositiveValenceSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RewardCircuitry"/>
+        <Class IRI="#LossCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RewardLearning"/>
+        <Class IRI="#PositiveValenceSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RewardValuation"/>
+        <Class IRI="#ApproachMotivation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskAssessment"/>
+        <Class IRI="#FearBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskyFamilies"/>
+        <Class IRI="#SustainedThreatSelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rumination"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#STRAIN"/>
+        <Class IRI="#LossSelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#STRAIN"/>
+        <Class IRI="#SustainedThreatSelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SUDS"/>
+        <Class IRI="#FearSelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sadness"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SadnessElicitingFilmClips"/>
+        <Class IRI="#LossParadigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Self-report"/>
+        <Class IRI="#UnitsOfAnalysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Septum"/>
+        <Class IRI="#FrustrativeNonrewardCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serotonin"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serotonin"/>
+        <Class IRI="#FrustrativeNonrewardMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shame"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkinConductance"/>
+        <Class IRI="#FearPhysiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialApproach"/>
+        <Class IRI="#FearBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialProcess"/>
+        <Class IRI="#System"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stereotypic"/>
+        <Class IRI="#HabitBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Steroids"/>
+        <Class IRI="#FrustrativeNonrewardMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StrangerTests"/>
+        <Class IRI="#FearParadigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Striatum"/>
+        <Class IRI="#FrustrativeNonrewardCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Striatum"/>
+        <Class IRI="#HabitCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubstantiaNigra"/>
+        <Class IRI="#HabitCell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SustainedThreat"/>
+        <Class IRI="#NegativeValenceSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SustainedThreatBehavior"/>
+        <Class IRI="#Behavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SustainedThreatCell"/>
+        <Class IRI="#Cell"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SustainedThreatCircuit"/>
+        <Class IRI="#Circuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SustainedThreatMolecule"/>
+        <Class IRI="#Molecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SustainedThreatPhysiology"/>
+        <Class IRI="#Physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SustainedThreatSelfReport"/>
+        <Class IRI="#Self-report"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TESI"/>
+        <Class IRI="#SustainedThreatSelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TrierSocialStressTest"/>
+        <Class IRI="#FearParadigm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VTA"/>
+        <Class IRI="#HabitCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vasopressin"/>
+        <Class IRI="#FearMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vasopressin"/>
+        <Class IRI="#FrustrativeNonrewardMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vasopressin"/>
+        <Class IRI="#Vasopressin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VentACC"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VentralStriatium"/>
+        <Class IRI="#Striatum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VigilanceNetwork"/>
+        <Class IRI="#SustainedThreatCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Withdrawal"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worry"/>
+        <Class IRI="#LossBehavior"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YouthLifeStressInterview"/>
+        <Class IRI="#SustainedThreatSelfReport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dPAG"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dmPFC"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#latPFC"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vPAG"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vmPFC"/>
+        <Class IRI="#FearCircuit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vmPFC"/>
+        <Class IRI="#LossCircuit"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#BDNF"/>
+        <NamedIndividual IRI="#BDNF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CCK"/>
+        <NamedIndividual IRI="#CCK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CRF"/>
+        <NamedIndividual IRI="#CRF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cortisol"/>
+        <NamedIndividual IRI="#Cortisol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dopamine"/>
+        <NamedIndividual IRI="#Dopamine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EndogenousCannabinoids"/>
+        <NamedIndividual IRI="#EndogenousCannibinoids"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FGF2"/>
+        <NamedIndividual IRI="#FGF2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Glutamate"/>
+        <NamedIndividual IRI="#Glutamate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NMDAR"/>
+        <NamedIndividual IRI="#NMDAR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NPY"/>
+        <NamedIndividual IRI="#NPY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NeuropeptideS"/>
+        <NamedIndividual IRI="#Neuropeptide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neurosteroids"/>
+        <NamedIndividual IRI="#Neurosteroids"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Orexin"/>
+        <NamedIndividual IRI="#Orexin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#PaperTest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serotonin"/>
+        <NamedIndividual IRI="#Serotonin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ACTH"/>
+        <NamedIndividual IRI="#acth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Androgens"/>
+        <NamedIndividual IRI="#androgens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AutonomicNervousSystem"/>
+        <NamedIndividual IRI="#ans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AnxietySensitivityIndex"/>
+        <NamedIndividual IRI="#anxiety_sensitivity_index"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AverageCortisolLevels"/>
+        <NamedIndividual IRI="#average_cortisol_level"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BasAmyg"/>
+        <NamedIndividual IRI="#bas_amyg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BedNucleusStriaTerminalis"/>
+        <NamedIndividual IRI="#bed_nucleus_stria_terminalis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BIS"/>
+        <NamedIndividual IRI="#bis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FearofNegativeEvaluationScale"/>
+        <NamedIndividual IRI="#fear_of_negative_evaluation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IntoleranceOfUncertaintyScale"/>
+        <NamedIndividual IRI="#intolerance_uncertainty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LEDS"/>
+        <NamedIndividual IRI="#leds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NPUThreatTask"/>
+        <NamedIndividual IRI="#npu_threat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper28798340"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paper"/>
+        <NamedIndividual IRI="#paper29382815"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PituitaryCells"/>
+        <NamedIndividual IRI="#pituitary_cells"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PotentiatedStartle"/>
+        <NamedIndividual IRI="#potentiated_startle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArousalRegulatorySystem"/>
+        <NamedIndividual IRI="#testpaper"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMolecule"/>
+        <NamedIndividual IRI="#PaperTest"/>
+        <NamedIndividual IRI="#BDNF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMolecule"/>
+        <NamedIndividual IRI="#PaperTest"/>
+        <NamedIndividual IRI="#CRF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMolecule"/>
+        <NamedIndividual IRI="#PaperTest"/>
+        <NamedIndividual IRI="#androgens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMolecule"/>
+        <NamedIndividual IRI="#paper28798340"/>
+        <NamedIndividual IRI="#BDNF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCircuit"/>
+        <NamedIndividual IRI="#paper29382815"/>
+        <NamedIndividual IRI="#bed_nucleus_stria_terminalis"/>
+    </ObjectPropertyAssertion>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paper"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMolecule"/>
+                <Variable IRI="urn:swrl#p"/>
+                <Variable IRI="urn:swrl#m"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#AnxietyMolecule"/>
+                <Variable IRI="urn:swrl#m"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Anxiety"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paper"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMolecule"/>
+                <Variable IRI="urn:swrl#p"/>
+                <Variable IRI="urn:swrl#m"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FearMolecule"/>
+                <Variable IRI="urn:swrl#m"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasCircuit"/>
+                <Variable IRI="urn:swrl#p"/>
+                <Variable IRI="urn:swrl#c"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FearCircuit"/>
+                <Variable IRI="urn:swrl#c"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Fear"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Paper"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasMolecule"/>
+                <Variable IRI="urn:swrl#p"/>
+                <Variable IRI="urn:swrl#m"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#FearMolecule"/>
+                <Variable IRI="urn:swrl#m"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Fear"/>
+                <Variable IRI="urn:swrl#p"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fear</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Activation of the brain’s defensive motivational system to promote behaviors that protect the organism from perceived danger. Normal fear involves a pattern of adaptive responses to conditioned or unconditioned threat stimuli (exteroceptive or interoceptive). Fear can involve internal representations and cognitive processing, and can be modulated by a variety of factors.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
